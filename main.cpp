@@ -145,7 +145,7 @@ int main(int argc, char **argv)
 	{
 		if(!strcmp("-h", argv[1]) || !strcmp("-H", argv[1]) || !strcmp("-help", argv[1]))
 		{
-			std::cout<<"this is program are created for calculate hash sha15\nExample of using:\n sha1.exe input_file_neme out_file_name\n sha1.exe input_file_name\n sha1.exe\n";
+			std::cout<<"this is program are created for calculate hash sha1\nExample of using:\n sha1.exe input_file_neme out_file_name\n sha1.exe input_file_name\n sha1.exe\n";
 			return 1;
 		}
 		strcpy(in_name, argv[1]);
